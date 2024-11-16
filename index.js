@@ -62,7 +62,7 @@ function getQuestions() {
     }
   };
 
-  myRequest.open("GET", "quiz.json", true);
+  myRequest.open("GET", "index.json", true);
   myRequest.send();
 }
 
